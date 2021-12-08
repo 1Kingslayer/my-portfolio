@@ -61,33 +61,16 @@ header nav ul li a {
     color:rgba(145, 205, 253, 0.5);
 }
 /* Header Style end */
-section {
-    text-align: center;
-    background-color: black;
+h2 {
     color:rgba(145, 205, 253, 0.5);
-    text-shadow: 0 0 10px rgba(243, 240, 240, 0.5);
+    text-align: center;
+    font-size: 25px;
 }
 
-/* section classes styling start */
-.about-me {
-    padding: 10px 15px;
-    margin: 5%;  
+p {
+    color:rgba(145, 205, 253, 0.5);
+    text-align: center;
 }
-
-.my-resume {
-    padding: 10px 15px;
-    margin: 5%;
-}
-
-.contact-me {
-    padding: 10px 15px;
-    margin: 5%;
-}
-.my-work {
-    padding: 10px 15px;
-    margin: 5%;
-}
-/* Section classes styling end */
 
 img {
     width: 300px;
@@ -99,6 +82,53 @@ img {
     background-image: url("../images/matrix.png");
 }
 
-.flex-row {
-    display: flex;
+.section {
+    padding: 10px;
+    text-align: center;
+    list-style-position: inside;
+    border-bottom: 1px solid rgba(145, 205, 253, 0.5);
+    margin: 0 auto; 
+    width: 30%; 
+    padding-top: 20px; 
 }
+
+.section ol {
+    color:rgba(145, 205, 253, 0.5);
+    text-align: center;
+}
+
+a {
+    color:rgba(145, 205, 253, 0.5);
+    text-align: center;
+}
+
+a img {
+    width: 185px;
+    height: 55px;
+}
+
+ /* Media query for smaller desktop screens and smaller */
+ @media screen and (max-width:980px) {
+    /* this will be applied on any screen smaller then 980px */
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position:relative;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align:center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+}
+
