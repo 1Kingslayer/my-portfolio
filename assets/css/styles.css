@@ -7,6 +7,7 @@
 
 /* Body styling start */
 body{
+    display:flex;
     font-family:cursive;
     font-weight: 500;
     font-style: normal;
@@ -43,6 +44,8 @@ header h1 a {
 
 header nav {
     margin: 7px 0;
+    display:flex;
+    flex-wrap:wrap;
 }
 
 header nav ul {
@@ -105,7 +108,43 @@ a {
 a img {
     width: 185px;
     height: 55px;
+    border: 3px solid rgba(145, 205, 253, 0.5);
+    justify-items:center ;
 }
+
+/* My work section styling start */
+.my-work {
+    padding: 20px;
+    margin:auto;
+    width: 100%;
+    flex-direction: column;
+}
+
+.work-1 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    
+}
+
+.work-1 h1 {
+    color:rgba(145, 205, 253, 0.5);
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.work-2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+div ol li a img{
+    width: 55px;
+    height: 35px;
+}
+/* My work section styling start */
+
+
+
 
  /* Media query for smaller desktop screens and smaller */
  @media screen and (max-width:980px) {
@@ -130,5 +169,10 @@ a img {
     header nav ul li a {
         font-size: 20px;
     }
+
+    section {
+        flex: 100%
+    }
+
 }
 
