@@ -8,7 +8,7 @@ Showcase of my skills and work
 * CSS
 
 ## Website
-https://1kingslayer.github.io/run-buddy/
+https://1kingslayer.github.io/my-portfolio/
 
 ## Contribution
 Made with ❤️ by 1Kingslayer
