@@ -1,183 +1,177 @@
 /* Telling every element on the page to not have any margin or border unless defined */
-*{
-    margin: 0%;
-    padding: 0;
-    box-sizing:border-box;
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Body styling start */
-body{
-    display:flex;
-    font-family:cursive;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 12px;
-    letter-spacing: .02em;
-    line-height: 2em;
-    text-transform: none;
-    background-color: black;
-    display:block;   
+body {
+  display: flex;
+  font-family: cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  line-height: 2em;
+  text-transform: none;
+  background-color: black;
+  display: block;
 }
 /* Body styling end */
 
 /* Header styling start */
 header {
-    padding: 20px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position:static;
-    top: 0;
-    background-size: cover;
-    background-position: 80%;
-    background-attachment: fixed;
-    background-color:rgb(0, 0, 0);
-    z-index: 9999;
-    font-size: 25px;
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: static;
+  top: 0;
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
+  background-color: rgb(0, 0, 0);
+  z-index: 9999;
+  font-size: 25px;
 }
 
 header h1 a {
-    font-family: cursive;
-    color:rgba(145, 205, 253, 0.5);
-    text-shadow: 0 0 10px rgba(243, 240, 240, 0.5);
+  font-family: cursive;
+  color: rgba(145, 205, 253, 0.5);
+  text-shadow: 0 0 10px rgba(243, 240, 240, 0.5);
 }
 
 header nav {
-    margin: 7px 0;
-    display:flex;
-    flex-wrap:wrap;
+  margin: 7px 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header nav ul {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
-    align-items:center;
-    list-style:none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(243, 240, 240, 0.5);
-    color:rgba(145, 205, 253, 0.5);
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(243, 240, 240, 0.5);
+  color: rgba(145, 205, 253, 0.5);
 }
 /* Header Style end */
 h2 {
-    color:rgba(145, 205, 253, 0.5);
-    text-align: center;
-    font-size: 25px;
+  color: rgba(145, 205, 253, 0.5);
+  text-align: center;
+  font-size: 25px;
 }
 
 p {
-    color:rgba(145, 205, 253, 0.5);
-    text-align: center;
+  color: rgba(145, 205, 253, 0.5);
+  text-align: center;
 }
 
 img {
-    width: 300px;
-    height: 350px;
-    border-radius: 8px;
+  width: 300px;
+  height: 350px;
+  border-radius: 8px;
 }
 
 .pics {
-    background-image: url("../images/matrix.png");
+  background-image: url("../images/matrix.png");
 }
 
 .section {
-    padding: 10px;
-    text-align: center;
-    list-style-position: inside;
-    border-bottom: 1px solid rgba(145, 205, 253, 0.5);
-    margin: 0 auto; 
-    width: 30%; 
-    padding-top: 20px; 
+  padding: 10px;
+  text-align: center;
+  list-style-position: inside;
+  border-bottom: 1px solid rgba(145, 205, 253, 0.5);
+  margin: 0 auto;
+  width: 30%;
+  padding-top: 20px;
 }
 
 .section ol {
-    color:rgba(145, 205, 253, 0.5);
-    text-align: center;
+  color: rgba(145, 205, 253, 0.5);
+  text-align: center;
 }
 
 a {
-    color:rgba(145, 205, 253, 0.5);
-    text-align: center;
+  color: rgba(145, 205, 253, 0.5);
+  text-align: center;
 }
 
 a img {
-    width: 185px;
-    height: 55px;
-    border: 3px solid rgba(145, 205, 253, 0.5);
-    justify-items:center ;
+  width: 185px;
+  height: 55px;
+  border: 3px solid rgba(145, 205, 253, 0.5);
+  justify-items: center;
 }
 
 /* My work section styling start */
 .my-work {
-    padding: 20px;
-    margin:auto;
-    width: 100%;
-    flex-direction: column;
+  padding: 20px;
+  margin: auto;
+  width: 100%;
+  flex-direction: column;
 }
 
 .work-1 img {
-    width:500px;
-    height: 110px;
+  width: 500px;
+  height: 350px;
 }
 
 .work-1 {
-    padding-bottom: 20px;
-    margin-bottom: 15px;
-    
+  padding-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .work-1 h1 {
-    color:rgba(145, 205, 253, 0.5);
-    padding-bottom: 15px;
-    margin-bottom: 10px;
+  color: rgba(145, 205, 253, 0.5);
+  padding-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .work-2 {
-    padding-bottom: 20px;
-    margin-bottom: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
 }
 
-div ol li a img{
-    width: 55px;
-    height: 35px;
+div ol li a img {
+  width: 55px;
+  height: 35px;
 }
 /* My work section styling start */
 
+/* Media query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+  /* this will be applied on any screen smaller then 980px */
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
 
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
 
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
 
- /* Media query for smaller desktop screens and smaller */
- @media screen and (max-width:980px) {
-    /* this will be applied on any screen smaller then 980px */
-    header {
-        padding-bottom: 0;
-        justify-content: center;
-        position:relative;
-    }
-    
-    header h1 {
-        width: 100%;
-        text-align:center;
-    }
+  header nav ul li a {
+    font-size: 20px;
+  }
 
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-    }
-
-    header nav ul li a {
-        font-size: 20px;
-    }
-
-    section {
-        flex: 100%
-    }
-
+  section {
+    flex: 100%;
+  }
 }
-
